@@ -1,6 +1,6 @@
 import axios from "axios";
 import Layout from "../../app/components/Layout";
-import Posts from "../../app/components/Posts";
+import Posts from "../components/posts";
 
 const getPosts = async () => {
   const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
